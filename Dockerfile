@@ -5,7 +5,7 @@ RUN rm /usr/share/nginx/html/index.html
 
 ## Step 2:
 # Copy source code to working directory
-COPY DragonBoat /usr/share/nginx/DragonBoat
+COPY Abhinav /usr/share/nginx/Abhinav
 
 ## Step 3:
-RUN mv /usr/share/nginx/DragonBoat/* /usr/share/nginx/html
+RUN mv /usr/share/nginx/Abhinav/* /usr/share/nginx/html
